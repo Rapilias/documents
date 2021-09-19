@@ -92,13 +92,13 @@ Link: https://www.youtube.com/channel/UCZsCIZbP4Zm-X9R_1EgCKiQ
 
 ## SE
 効果音: *  
-Author:おにくやさい(ﾌﾞﾙｱｶBGMｱﾚﾝｼﾞ) (@o29_831)  
+Author:おにくやさい(ﾌﾞﾙｱｶBGMｱﾚﾝｼﾞ) (@o29_831) -> https://twitter.com/o29_831    
 Link: None  
 [個別提供]  
 
 ## Texture
 キャラアイコン: シロコ, セリナ, モモイ  
-Author: マヒマヒレンジャー(@mahimahirenzya)  
+Author: マヒマヒレンジャー(@mahimahirenzya) -> https://twitter.com/mahimahirenzya  
 Link: None  
 [個別提供]  
 
