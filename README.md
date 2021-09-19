@@ -79,7 +79,7 @@ Version: ver0.9b
 
 スイーパー(3種)  
 Link: None  
-Author:  Rapilias(@Rapilias1)  
+Author:  Rapilias(@Rapilias1) -> https://twitter.com/Rapilias1  
 > [「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドライン](https://bluearchive.jp/news/newsJump/116)  
 
 ## BGM
