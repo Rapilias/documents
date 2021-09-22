@@ -115,6 +115,8 @@ Link: None
   + https://github.com/neuecc/UniRx/blob/master/LICENSE
 + neuecc/MessagePack-CSharp
   + https://github.com/neuecc/MessagePack-CSharp/blob/master/LICENSE
++ hadashiA/VContainer
+  + https://github.com/hadashiA/VContainer/blob/master/LICENSE
 
 ## Shader
 + ColinLeung-NiloCat/UnityURPToonLitShaderExample
