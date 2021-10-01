@@ -79,7 +79,7 @@ Version: ver0.9b
 
 ---
 
-小鳥遊ホシノ
+小鳥遊ホシノ  
 Link: https://3d.nicovideo.jp/works/td79548  
 Author: https://3d.nicovideo.jp/users/75885307   
 Version: ver1.0t  
