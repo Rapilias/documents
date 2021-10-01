@@ -63,7 +63,7 @@ Version: ver0.9b
 才羽ミドリ  
 Link: https://3d.nicovideo.jp/works/td79011  
 Author: https://3d.nicovideo.jp/users/75885307  
-Version: ver0.9b  
+Version: ver0.9  
 
 > ・本モデルは上記「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドラインの内容の範囲内での活動に限り、自由に使用することが可能です。  
 > ・MikuMikuDance関連ソフトでの使用を想定しています。  
