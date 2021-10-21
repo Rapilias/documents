@@ -38,7 +38,23 @@ https://bluearchive.jp/news/newsJump/116
 >  
 > Original copyright (c) NAT GAMES Co., Ltd.  
 > Original copyright (c) Yostar, Inc.  
+
+---
+
+白洲アズサ(ブルーアーカイブ)  
+Link: https://3d.nicovideo.jp/works/td79881  
+Author:  あんじっぷ (@fs495)  -> https://twitter.com/fs495  
+Version: 015 (2?)  
   
+> 公式の二次創作ガイドラインを守ってください！以上です  
+
+
+>「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドライン  
+https://bluearchive.jp/news/newsJump/116  
+>  
+> Original copyright (c) NAT GAMES Co., Ltd.  
+> Original copyright (c) Yostar, Inc.  
+
 ---
 
 才羽モモイ  
