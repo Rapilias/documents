@@ -11,7 +11,7 @@ https://twitter.com/Rapilias1 によって開発されているブルーアー�
 ### モデルデータ
 【VRC】シロコ  
 Link: https://booth.pm/ja/items/2840468  
-Author: せとくま みりん (@mirin_setokuma) -> https://twitter.com/mirin_setokuma  
+Author: [せとくま みりん (@mirin_setokuma)](https://twitter.com/mirin_setokuma)  
 Version: v01  
 >  ■VRC向け3Dモデル「シロコ」について  
 >  ・VRC向け3Dモデル「シロコ」（以下本モデル）のモデルデータを抽出できる形での転載・再配布は禁止です。  
@@ -27,7 +27,7 @@ Version: v01
 
 鷲見セリナ(ブルーアーカイブ)  
 Link: https://3d.nicovideo.jp/works/td78229  
-Author:  あんじっぷ (@fs495)  -> https://twitter.com/fs495  
+Author:  [あんじっぷ (@fs495)](https://twitter.com/fs495)  
 Version: 027 (2?)  
   
 >「ブルーアーカイブ」に登場する鷲見セリナの二次創作ファンモデルです。  
@@ -43,7 +43,7 @@ https://bluearchive.jp/news/newsJump/116
 
 白洲アズサ(ブルーアーカイブ)  
 Link: https://3d.nicovideo.jp/works/td79881  
-Author:  あんじっぷ (@fs495)  -> https://twitter.com/fs495  
+Author:  [あんじっぷ (@fs495)](https://twitter.com/fs495)  
 Version: 015 (2?)  
   
 > 公式の二次創作ガイドラインを守ってください！以上です  
@@ -116,7 +116,7 @@ Version: ver1.0t
 
 スイーパー(3種)  
 Link: None  
-Author:  Rapilias(@Rapilias1) -> https://twitter.com/Rapilias1  
+Author:  [Rapilias(@Rapilias1)](https://twitter.com/Rapilias1)  
 > [「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドライン](https://bluearchive.jp/news/newsJump/116)  
 
 ## BGM
@@ -124,18 +124,18 @@ Author:  Rapilias(@Rapilias1) -> https://twitter.com/Rapilias1
 [Dream of hit a bank plan (Fan-made Briefing Lobby) o29_831](https://www.youtube.com/watch?v=udQNlvrnDuE)  
 miscalculation [個別提供]  
   
-Author: おにくやさい(ﾌﾞﾙｱｶBGMｱﾚﾝｼﾞ) (@o29_831) -> https://twitter.com/o29_831  
+Author: [おにくやさい(ﾌﾞﾙｱｶBGMｱﾚﾝｼﾞ) (@o29_831)](https://twitter.com/o29_831)  
 Link: https://www.youtube.com/channel/UCZsCIZbP4Zm-X9R_1EgCKiQ  
 
 ## SE
 効果音: *  
-Author:おにくやさい(ﾌﾞﾙｱｶBGMｱﾚﾝｼﾞ) (@o29_831) -> https://twitter.com/o29_831    
+Author: [おにくやさい(ﾌﾞﾙｱｶBGMｱﾚﾝｼﾞ) (@o29_831)](https://twitter.com/o29_831)  
 Link: None  
 [個別提供]  
 
 ## Texture
 キャラアイコン: シロコ, セリナ, モモイ, ミドリ  
-Author: マヒマヒレンジャー(@mahimahirenzya) -> https://twitter.com/mahimahirenzya  
+Author: [牧田連 (@makitaren_)](https://twitter.com/makitaren_)  
 Link: None  
 [個別提供]  
 
