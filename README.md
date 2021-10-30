@@ -134,7 +134,7 @@ Link: None
 [個別提供]  
 
 ## Texture
-キャラアイコン: シロコ, セリナ, モモイ  
+キャラアイコン: シロコ, セリナ, モモイ, ミドリ  
 Author: マヒマヒレンジャー(@mahimahirenzya) -> https://twitter.com/mahimahirenzya  
 Link: None  
 [個別提供]  
