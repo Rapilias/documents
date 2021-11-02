@@ -135,7 +135,7 @@ Link: None
 
 ## Texture
 キャラアイコン: シロコ, セリナ, モモイ, ミドリ  
-Author: [牧田連 (@makitaren_)](https://twitter.com/makitaren_)  
+Author: [マヒマヒレンジャー (@mahimahirenzya)](https://twitter.com/mahimahirenzya)  
 Link: None  
 [個別提供]  
 
