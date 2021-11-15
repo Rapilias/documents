@@ -57,6 +57,23 @@ https://bluearchive.jp/news/newsJump/116
 
 ---
 
+栗村アイリ(ブルーアーカイブ)  
+Link: https://3d.nicovideo.jp/works/td80196  
+Author:  [あんじっぷ (@fs495)](https://twitter.com/fs495)  
+Version: 008 (1?)  
+
+> 改変  可能
+
+> This model is fanart of following work(s):  
+> 
+> 栗村アイリ (ブルーアーカイブ)  
+> Kurimura Airi (Blue Archive)  
+>   
+> Original copyright (c) NAT GAMES Co., Ltd.  
+> Original copyright (c) Yostar, Inc.  
+
+---
+
 才羽モモイ  
 Link: https://3d.nicovideo.jp/works/td78784  
 Author: https://3d.nicovideo.jp/users/75885307  
