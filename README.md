@@ -131,7 +131,7 @@ Version: ver1.0t
 
 ---
 
-スイーパー(3種)  
+スイーパー(白/黄/赤/水/紫)  
 Link: None  
 Author:  [Rapilias(@Rapilias1)](https://twitter.com/Rapilias1)  
 > [「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドライン](https://bluearchive.jp/news/newsJump/116)  
