@@ -132,9 +132,14 @@ Version: ver1.0t
 ---
 
 スイーパー(白/黄/赤/水/紫)  
-Link: None  
+Link: https://rapilias.booth.pm/items/3464346  
 Author:  [Rapilias(@Rapilias1)](https://twitter.com/Rapilias1)  
-> [「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドライン](https://bluearchive.jp/news/newsJump/116)  
+Version: Internal  
+> 「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドライン( https://bluearchive.jp/news/newsJump/116 ) に加え、以下の条文が適応されます。  
+> ・本モデルの商用利用は禁止します。  
+> ・本モデルの改変/未改変を問わず、二次配布は禁止します。  
+> ・当利用規約は予告なく改定する場合があります。利用規約は最新のものが適用されます。  
+> ・本モデルの使用により発生した損害、損失、不利益に対して当方は一切責任を負いません。全て自己責任の上で使用をお願いします。  
 
 ## BGM
 [Αναζήτηση για την Κιβωτός στο Ντεβαλόκα (Fan-made Battle Music) o29_831](https://www.youtube.com/watch?v=Vya07EtRiRQ)  
