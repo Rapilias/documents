@@ -44,14 +44,13 @@ https://bluearchive.jp/news/newsJump/116
 白洲アズサ(ブルーアーカイブ)  
 Link: https://3d.nicovideo.jp/works/td79881  
 Author:  [あんじっぷ (@fs495)](https://twitter.com/fs495)  
-Version: 015 (2?)  
+Version: 018 (4?)  
   
-> 公式の二次創作ガイドラインを守ってください！以上です  
+> ~~公式の二次創作ガイドラインを守ってください！以上です  
 
-
->「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドライン  
-https://bluearchive.jp/news/newsJump/116  
->  
+> 派生作品を作成・発表する場合は、公式からのガイドラインに沿ってご利用をお願いします。
+> 「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドライン
+> https://bluearchive.jp/news/newsJump/116
 > Original copyright (c) NAT GAMES Co., Ltd.  
 > Original copyright (c) Yostar, Inc.  
 
