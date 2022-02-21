@@ -177,7 +177,8 @@ Link: None
   + https://github.com/neuecc/MessagePack-CSharp/blob/master/LICENSE
 + hadashiA/VContainer
   + https://github.com/hadashiA/VContainer/blob/master/LICENSE
-
++ Tayx94/graphy
+  + https://github.com/Tayx94/graphy/blob/master/LICENSE
 
 ## 依存アセット
 TODO
