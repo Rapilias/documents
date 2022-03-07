@@ -17,7 +17,7 @@ Windows 10/11 のみで利用可能です。
 **それ以外のPFでの開発予定はありません。**
 #### 動作確認環境(開発機)
 OS: Windows10  
-CPU: Core i9 9990K  
+CPU: Core i9-9900K  
 Memory: 32GB  
 GPU: RTX2060  
 
