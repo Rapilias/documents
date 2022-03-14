@@ -210,3 +210,6 @@ Link: None
 
 ## 依存アセット
 TODO
+
+## `Rapilias/Resources/...`
+[Booth](https://rapilias.booth.pm/) で公開されているリソースの利用規約等を管理しているディレクトリ
