@@ -191,22 +191,22 @@ Link: None
 [個別提供]  
 
 ## ライブラリライセンス
-+ Cysharp/MessagePipe
-  + https://github.com/Cysharp/MessagePipe/blob/master/LICENSE
-+ Cysharp/MasterMemory
-  +  https://github.com/Cysharp/MasterMemory/blob/master/LICENSE
-+ Cysharp/UniTask
-  + https://github.com/Cysharp/UniTask/blob/master/LICENSE
-+ Cysharp/ObservableCollections
-  + https://github.com/Cysharp/ObservableCollections/blob/master/LICENSE
-+ neuecc/UniRx
-  + https://github.com/neuecc/UniRx/blob/master/LICENSE
-+ neuecc/MessagePack-CSharp
-  + https://github.com/neuecc/MessagePack-CSharp/blob/master/LICENSE
-+ hadashiA/VContainer
-  + https://github.com/hadashiA/VContainer/blob/master/LICENSE
-+ Tayx94/graphy
-  + https://github.com/Tayx94/graphy/blob/master/LICENSE
++ Cysharp
+  + MessagePipe: https://github.com/Cysharp/MessagePipe/blob/master/LICENSE
+  + MasterMemory: https://github.com/Cysharp/MasterMemory/blob/master/LICENSE
+  + UniTask: https://github.com/Cysharp/UniTask/blob/master/LICENSE
+  + ObservableCollections: https://github.com/Cysharp/ObservableCollections/blob/master/LICENSE
++ neuecc
+  + UniRx: https://github.com/neuecc/UniRx/blob/master/LICENSE
+  + MessagePack-CSharp: https://github.com/neuecc/MessagePack-CSharp/blob/master/LICENSE
++ hadashiA
+  + VContainer: https://github.com/hadashiA/VContainer/blob/master/LICENSE
++ Tayx94
+  + graphy: https://github.com/Tayx94/graphy/blob/master/LICENSE
++ Haruma-K
+  + UnityScreenNavigator: https://github.com/Haruma-K/UnityScreenNavigator/blob/master/LICENSE.md
+  + UnityUIPlayables: https://github.com/Haruma-K/UnityUIPlayables/blob/master/LICENSE.md
+  + uPalette: https://github.com/Haruma-K/uPalette/blob/master/LICENSE.md
 
 ## 依存アセット
 TODO
