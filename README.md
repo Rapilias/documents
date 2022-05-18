@@ -18,7 +18,7 @@ Windows 10/11 のみで利用可能です。
 #### 動作確認環境(開発機)
 OS: Windows10  
 CPU: Core i9-9900K  
-Memory: 32GB  
+Memory: 96GB  
 GPU: RTX2060  
 
 ### 有料？
@@ -207,7 +207,9 @@ Link: None
   + UnityScreenNavigator: https://github.com/Haruma-K/UnityScreenNavigator/blob/master/LICENSE.md
   + UnityUIPlayables: https://github.com/Haruma-K/UnityUIPlayables/blob/master/LICENSE.md
   + uPalette: https://github.com/Haruma-K/uPalette/blob/master/LICENSE.md
-
++ EgoParadise.Rapilias
+  + UnityTypedAnimator: https://github.com/Rapilias/UnityTypedAnimator/LICENSE.md
+ 
 ## 依存アセット
 TODO
 
