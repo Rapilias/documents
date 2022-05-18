@@ -208,7 +208,7 @@ Link: None
   + UnityUIPlayables: https://github.com/Haruma-K/UnityUIPlayables/blob/master/LICENSE.md
   + uPalette: https://github.com/Haruma-K/uPalette/blob/master/LICENSE.md
 + EgoParadise.Rapilias
-  + UnityTypedAnimator: https://github.com/Rapilias/UnityTypedAnimator/LICENSE.md
+  + UnityTypedAnimator: https://github.com/Rapilias/UnityTypedAnimator/LICENSE
  
 ## 依存アセット
 TODO
