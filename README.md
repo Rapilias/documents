@@ -1,7 +1,7 @@
-# BlueArchiveTPS(仮)
+# BlueTrail
 
 ## これは何？
-https://twitter.com/Rapilias1 によって開発されているブルーアーカイブの二次創作ゲームの公開ドキュメントです。  
+https://twitter.com/Rapilias1 によって開発されているブルーアーカイブの二次創作TPSゲームの公開ドキュメントです。  
   
 ## よくある質問
 ### いつ遊べるの？ / 開発の予定はどんな感じ？
