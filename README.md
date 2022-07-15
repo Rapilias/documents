@@ -4,9 +4,11 @@
 https://twitter.com/Rapilias1 によって開発されているブルーアーカイブの二次創作TPSゲームの公開ドキュメントです。  
   
 ## よくある質問
-### いつ遊べるの？ / 開発の予定はどんな感じ？
+### いつ遊べるの？ / 開発の状況はどんな感じ？
 https://github.com/Rapilias/documents/milestones をご確認ください。  
 **配布はv0.1.0完了後** を予定しています。
+
+https://rapilias.github.io/BlueTrailProjectMetrics/ にてプロジェクトの公開メトリクスを参照可能です。
 
 ### 開発のソースとかは？
 非公開です。  
