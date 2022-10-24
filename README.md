@@ -32,6 +32,7 @@ GPU: RTX2060
 
 ### 開発に参加出来る？
 多人数で開発する前提のプロジェクト/ライセンス形態ではないためご遠慮頂いております。  
+より詳細な内容は [Invite](https://github.com/Rapilias/documents/wiki/Invite) を確認してください。
 
 ## ライセンス
 原則[「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドライン](https://bluearchive.jp/news/newsJump/116) を遵守します。  
