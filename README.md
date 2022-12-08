@@ -40,5 +40,9 @@ GPU: RTX2060
 ## 依存アセット
 TODO
 
-## `Rapilias/Resources/...`
+# その他
+## `Rapilias/Resources/*`
 [Booth](https://rapilias.booth.pm/) で公開されているリソースの利用規約等を管理しているディレクトリ
+
+## `Rapilias/Service/*`
+`@Rapilias`の持つサービスや外部サービス上に公開されているサービス群
