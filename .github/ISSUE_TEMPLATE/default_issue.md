@@ -1,6 +1,6 @@
 ---
-name: default_issue
-about: デフォルトのissue template
+name: developer tasks
+about: 開発者向け issue template
 title: ''
 labels: ''
 assignees: Rapilias
