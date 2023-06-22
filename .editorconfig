@@ -1,4 +1,4 @@
-[*.{txt,md}]
+[*.{txt,md,css}]
 charset = utf-8
 end_of_line = lf
 indent_size = 2
