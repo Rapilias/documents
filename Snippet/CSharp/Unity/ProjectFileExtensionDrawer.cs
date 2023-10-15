@@ -49,9 +49,10 @@ namespace EgoParadise.Utility.Unity.Editor
             var filenameWidth = activeStyle.CalcSize(new GUIContent(filename)).x;
             var drawPosition = selectionrect.position;
             // 描画済みの幅 + アイコンの幅
-            drawPosition.x += filenameWidth + 15;
+            drawPosition.x += filenameWidth + 14;
             var drawRect = new Rect(drawPosition, extensionSize);
-
+            // TODO .png, .shadergraph 等一部で末尾の文字が消失するので調整
+            drawRect.width += 8;
             GUI.Label(drawRect, extensionGui, activeStyle);
         }
 
