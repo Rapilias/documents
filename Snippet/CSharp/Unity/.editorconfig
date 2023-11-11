@@ -1,0 +1,563 @@
+root = false
+
+
+# special files
+[LICENSE.md]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{editorconfig,gitignore,csproj,sln,json}]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# data and scripts
+[*.{sh,xml,pubxml,yaml,yml,json,props}]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{md}]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = false
+
+# gitkeep
+[*.gitkeep]
+end_of_line = lf
+insert_final_newline = false
+trim_trailing_whitespace = true
+
+# shell
+[*.sh]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = false
+charset = utf-8
+
+# .NET local tool
+[dotnet-tools.json]
+charset = utf-8
+end_of_line = crlf
+trim_trailing_whitespace = unset
+insert_final_newline = unset
+
+# C#
+[*.cs]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[*.{cs,csx}]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# dotnet format 専用のルール
+# https://learn.microsoft.com/ja-jp/dotnet/fundamentals/code-analysis/code-style-rule-options
+
+## 命名ルール
+dotnet_naming_rule.interfaceはIで始まるPascalCase.severity = warning
+dotnet_naming_rule.interfaceはIで始まるPascalCase.style = Iで始まるPascalCase
+dotnet_naming_rule.interfaceはIで始まるPascalCase.symbols = interface
+dotnet_naming_rule.private変数は_で始まるcamelCase.severity = warning
+dotnet_naming_rule.private変数は_で始まるcamelCase.style = _で始まるcamelCase
+dotnet_naming_rule.private変数は_で始まるcamelCase.symbols = 非公開変数
+dotnet_naming_rule.const_公開変数はPascalCase.severity = warning
+dotnet_naming_rule.const_公開変数はPascalCase.style = PascalCase
+dotnet_naming_rule.const_公開変数はPascalCase.symbols = const_公開変数
+dotnet_naming_rule.const_非公開変数はPascalCase.severity = warning
+dotnet_naming_rule.const_非公開変数はPascalCase.style = PascalCase
+dotnet_naming_rule.const_非公開変数はPascalCase.symbols = const_非公開変数
+dotnet_naming_rule.readonly_公開変数はPascalCase.severity = warning
+dotnet_naming_rule.readonly_公開変数はPascalCase.style = PascalCase
+dotnet_naming_rule.readonly_公開変数はPascalCase.symbols = readonly_公開変数
+dotnet_naming_rule.readonly_非公開変数はPascalCase.severity = warning
+dotnet_naming_rule.readonly_非公開変数はPascalCase.style = PascalCase
+dotnet_naming_rule.readonly_非公開変数はPascalCase.symbols = readonly_非公開変数
+dotnet_naming_rule.publicかつstaticプロパティはcamelCase.severity = warning
+dotnet_naming_rule.publicかつstaticプロパティはcamelCase.style = camelCase
+dotnet_naming_rule.publicかつstaticプロパティはcamelCase.symbols = public_static_プロパティ
+dotnet_naming_rule.publicプロパティはcamelCase.severity = warning
+dotnet_naming_rule.publicプロパティはcamelCase.style = camelCase
+dotnet_naming_rule.publicプロパティはcamelCase.symbols = public_プロパティ
+dotnet_naming_rule.型はPascalCase.severity = warning
+dotnet_naming_rule.型はPascalCase.style = PascalCase
+dotnet_naming_rule.型はPascalCase.symbols = 型
+dotnet_naming_rule.非同期関数はAsyncで終わるPascalCase.severity = warning
+dotnet_naming_rule.非同期関数はAsyncで終わるPascalCase.style = Asyncで終わるPascalCase
+dotnet_naming_rule.非同期関数はAsyncで終わるPascalCase.symbols = 非同期関数
+dotnet_naming_rule.abstractなclassはAで始まるPascalCase.severity = warning
+dotnet_naming_rule.abstractなclassはAで始まるPascalCase.style = Aで始まるPascalCase
+dotnet_naming_rule.abstractなclassはAで始まるPascalCase.symbols = class
+### 命名ルールに関連づくスタイル
+dotnet_naming_style._で始まるcamelCase.capitalization = camel_case
+dotnet_naming_style._で始まるcamelCase.required_prefix = _
+dotnet_naming_style._で始まるcamelCase.required_suffix =
+dotnet_naming_style._で始まるcamelCase.word_separator =
+dotnet_naming_style.Asyncで終わるPascalCase.capitalization = pascal_case
+dotnet_naming_style.Asyncで終わるPascalCase.required_prefix =
+dotnet_naming_style.Asyncで終わるPascalCase.required_suffix = Async
+dotnet_naming_style.Asyncで終わるPascalCase.word_separator =
+dotnet_naming_style.Iで始まるPascalCase.capitalization = pascal_case
+dotnet_naming_style.Iで始まるPascalCase.required_prefix = I
+dotnet_naming_style.Iで始まるPascalCase.required_suffix =
+dotnet_naming_style.Iで始まるPascalCase.word_separator =
+dotnet_naming_style.camelCase.capitalization = camel_case
+dotnet_naming_style.camelCase.required_prefix =
+dotnet_naming_style.camelCase.required_suffix =
+dotnet_naming_style.camelCase.word_separator =
+dotnet_naming_style.PascalCase.capitalization = pascal_case
+dotnet_naming_style.PascalCase.required_prefix =
+dotnet_naming_style.PascalCase.required_suffix =
+dotnet_naming_style.PascalCase.word_separator =
+dotnet_naming_style.Aで始まるPascalCase.capitalization = pascal_case
+dotnet_naming_style.Aで始まるPascalCase.required_prefix =A
+dotnet_naming_style.Aで始まるPascalCase.required_suffix =
+dotnet_naming_style.Aで始まるPascalCase.word_separator =
+### 命名ルールに関連づくシンボル
+dotnet_naming_symbols.const_or_readonly_公開変数.applicable_accessibilities = public
+dotnet_naming_symbols.const_or_readonly_公開変数.applicable_kinds = field
+dotnet_naming_symbols.const_or_readonly_公開変数.required_modifiers = const, readonly
+dotnet_naming_symbols.非公開変数.applicable_accessibilities = private, protected, private_protected, protected_internal
+dotnet_naming_symbols.非公開変数.applicable_kinds = field
+dotnet_naming_symbols.非公開変数.required_modifiers =
+dotnet_naming_symbols.非公開プロパティ.applicable_accessibilities = private, protected, private_protected, protected_internal
+dotnet_naming_symbols.非公開プロパティ.applicable_kinds = property
+dotnet_naming_symbols.非公開プロパティ.required_modifiers =
+dotnet_naming_symbols.const_非公開変数.applicable_accessibilities = private, protected, private_protected, protected_internal
+dotnet_naming_symbols.const_非公開変数.applicable_kinds = field
+dotnet_naming_symbols.const_非公開変数.required_modifiers = const
+dotnet_naming_symbols.const_公開変数.applicable_accessibilities = public, internal
+dotnet_naming_symbols.const_公開変数.applicable_kinds = field
+dotnet_naming_symbols.const_公開変数.required_modifiers = const
+dotnet_naming_symbols.readonly_非公開変数.applicable_accessibilities = private, protected, private_protected, protected_internal
+dotnet_naming_symbols.readonly_非公開変数.applicable_kinds = field
+dotnet_naming_symbols.readonly_非公開変数.required_modifiers = readonly
+dotnet_naming_symbols.readonly_公開変数.applicable_accessibilities = public, internal
+dotnet_naming_symbols.readonly_公開変数.applicable_kinds = field
+dotnet_naming_symbols.readonly_公開変数.required_modifiers = readonly
+dotnet_naming_symbols.public_static_プロパティ.applicable_accessibilities = public, internal
+dotnet_naming_symbols.public_static_プロパティ.applicable_kinds = property
+dotnet_naming_symbols.public_static_プロパティ.required_modifiers = static
+dotnet_naming_symbols.public_プロパティ.applicable_accessibilities = public, internal
+dotnet_naming_symbols.public_プロパティ.applicable_kinds = property
+dotnet_naming_symbols.public_プロパティ.required_modifiers =
+dotnet_naming_symbols.型.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+dotnet_naming_symbols.型.applicable_kinds = class, struct, interface, enum
+dotnet_naming_symbols.型.required_modifiers =
+dotnet_naming_symbols.interface.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+dotnet_naming_symbols.interface.applicable_kinds = interface
+dotnet_naming_symbols.interface.required_modifiers =
+dotnet_naming_symbols.非同期関数.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected, local
+dotnet_naming_symbols.非同期関数.applicable_kinds = method, local_function
+dotnet_naming_symbols.非同期関数.required_modifiers = async
+dotnet_naming_symbols.class.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected, local
+dotnet_naming_symbols.class.applicable_kinds = class
+dotnet_naming_symbols.class.required_modifiers =
+
+## その他ルール
+[*.{cs,vb}]
+# 未使用のパラメーターに対する警告をすべて出力する
+dotnet_code_quality_unused_parameters = all:warning
+# XMLドキュメントコメントがない場合に出力する警告を無効にする
+dotnet_diagnostic.cs1591.severity = none
+# IDE005: using ステートメントを使用していない名前空間を削除する
+dotnet_diagnostic.ide0005.severity = warning
+# IDE009: インスタンスの初期化子を使用していないフィールドを削除する
+dotnet_diagnostic.ide0009.severity = warning
+# 不要な抑制の除外を無効にする
+dotnet_remove_unnecessary_suppression_exclusions = none
+# 複数の空白行を許可する
+dotnet_style_allow_multiple_blank_lines_experimental = true:silent
+# ブロックの直後に文を許可しない
+dotnet_style_allow_statement_immediately_after_block_experimental = true:silent
+# null 合体演算子を使用する
+dotnet_style_coalesce_expression = true:warning
+# コレクション初期化子を使用する
+dotnet_style_collection_initializer = true:warning
+# タプルの名前を明示的に指定する
+dotnet_style_explicit_tuple_names = true:warning
+# null 条件演算子を使用する
+dotnet_style_null_propagation = true:warning
+# オブジェクト初期化子を使用する
+dotnet_style_object_initializer = true:warning
+# 演算子の前に括弧を置く
+dotnet_style_operator_placement_when_wrapping = beginning_of_line
+# 算術二項演算子の前に括弧を置く
+dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:warning
+# その他の二項演算子の前に括弧を置く
+dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:warning
+# その他の演算子の前に括弧を置かない
+dotnet_style_parentheses_in_other_operators = never_if_unnecessary:warning
+# 関係演算子の前に括弧を置く
+dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity:warning
+# ローカル変数、パラメーター、メンバーには組み込み型を使用する
+dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
+# メンバーアクセスには組み込み型を使用する
+dotnet_style_predefined_type_for_member_access = true:suggestion
+# 自動プロパティを使用する
+dotnet_style_prefer_auto_properties = true:silent
+# 複合代入演算子を使用する
+dotnet_style_prefer_compound_assignment = true:warning
+# 条件演算子を使用する
+dotnet_style_prefer_conditional_expression_over_assignment = true:silent
+# 条件演算子を使用する
+dotnet_style_prefer_conditional_expression_over_return = true:silent
+# 匿名型のメンバー名を推測する
+dotnet_style_prefer_inferred_anonymous_type_member_names = true:warning
+# タプルの名前を推測する
+dotnet_style_prefer_inferred_tuple_names = true:warning
+# 参照等価性メソッドよりも null チェックを使用する
+dotnet_style_prefer_is_null_check_over_reference_equality_method = true:warning
+# 単純化されたブール式を使用する
+dotnet_style_prefer_simplified_boolean_expressions = true:warning
+# 単純化された補間を使用する
+dotnet_style_prefer_simplified_interpolation = true:warning
+# イベントには this を使用する
+dotnet_style_qualification_for_event = true:warning
+# フィールドには this を使用する
+dotnet_style_qualification_for_field = true:warning
+# メソッドには this を使用する
+dotnet_style_qualification_for_method = true:warning
+# プロパティには this を使用する
+dotnet_style_qualification_for_property = true:warning
+# 読み取り専用フィールドを許可する
+dotnet_style_readonly_field = false:warning
+# アクセシビリティ修飾子を要求する
+dotnet_style_require_accessibility_modifiers = for_non_interface_members:warning
+
+[*.cs]
+# LINQクエリ式を揃える
+csharp_align_linq_query = false
+# 複数行の引数を揃える
+csharp_align_multiline_argument = true
+# 複数行のメソッドチェーンを揃えない
+csharp_align_multiline_calls_chain = false
+# 複数行の継承リストを揃えない
+csharp_align_multiline_extends_list = false
+# 複数行のパラメータを揃える
+csharp_align_multiline_parameter = true
+# 複数行の型パラメータの制約を揃える
+csharp_align_multline_type_parameter_constrains = true
+# 複数行の型パラメータリストを揃える
+csharp_align_multline_type_parameter_list = true
+# タプルの要素を揃える
+csharp_align_tuple_components = true
+# 不要な括弧のハイライトをヒントにする
+csharp_arrange_redundant_parentheses_highlighting = hint
+# this修飾子のハイライトをヒントにする
+csharp_arrange_this_qualifier_highlighting = hint
+# 型メンバーの修飾子のハイライトをヒントにする
+csharp_arrange_type_member_modifiers_highlighting = hint
+# 型の修飾子のハイライトをヒントにする
+csharp_arrange_type_modifiers_highlighting = hint
+# 自動プロパティをget-onlyにできることをヒントにする
+csharp_auto_property_can_be_made_get_only_local_highlighting = hint
+# インデント設定を自動検出する
+csharp_autodetect_indent_settings = false
+# ブロック文の後に空行を0行にする
+csharp_blank_lines_after_block_statements = 0
+# 制御転送文の後に空行を1行にする
+csharp_blank_lines_after_control_transfer_statements = 1
+# コメントの後に空行を0行にする
+csharp_blank_lines_after_start_comment = 0
+# アクセサの周りに空行を0行にする
+csharp_blank_lines_around_accessor = 0
+# 自動プロパティの周りに空行を0行にする
+csharp_blank_lines_around_auto_property = 0
+# フィールドの周りに空行を0行にする
+csharp_blank_lines_around_field = 0
+# 呼び出し可能な要素の周りに空行を1行にする
+csharp_blank_lines_around_invocable = 1
+# ローカルメソッドの周りに空行を0行にする
+csharp_blank_lines_around_local_method = 0
+# プロパティの周りに空行を0行にする
+csharp_blank_lines_around_property = 0
+# #regionの周りに空行を1行にする
+csharp_blank_lines_around_region = 1
+# 1行のアクセサの周りに空行を0行にする
+csharp_blank_lines_around_single_line_accessor = 0
+# 1行の自動プロパティの周りに空行を0行にする
+csharp_blank_lines_around_single_line_auto_property = 0
+# 1行のフィールドの周りに空行を0行にする
+csharp_blank_lines_around_single_line_field = 0
+# 1行の呼び出し可能な要素の周りに空行を0行にする
+csharp_blank_lines_around_single_line_invocable = 0
+# 1行のプロパティの周りに空行を0行にする
+csharp_blank_lines_around_single_line_property = 0
+# 1行の型の周りに空行を0行にする
+csharp_blank_lines_around_single_line_type = 0
+# 型の周りに空行を1行にする
+csharp_blank_lines_around_type = 1
+# ブロック文の前に空行を0行にする
+csharp_blank_lines_before_block_statements = 0
+# usingグループの間に空行を0行にする
+csharp_blank_lines_between_using_groups = 0
+# リージョン内に空行を0行にする
+csharp_blank_lines_inside_region = 0
+# 波括弧のスタイルを次の行にする
+csharp_brace_style = next_line
+# メンバーアクセスにおける組み込み型の参照スタイルをヒントにする
+csharp_built_in_type_reference_style_for_member_access_highlighting = hint
+# 組み込み型の参照スタイルをヒントにする
+csharp_built_in_type_reference_style_highlighting = hint
+# 名前空間のハイライトを無効にする
+csharp_check_namespace_highlighting = none
+# コメントのタイポのハイライトを無効にする
+csharp_comment_typo_highlighting = none
+# 空のブロックのスタイルを同じ行にする
+csharp_empty_block_style = together_same_line
+# 行末のスタイルを強制する
+csharp_enforce_line_ending_style = true
+# フィールドをread-onlyにできることをヒントにする
+csharp_field_can_be_made_read_only_local_highlighting = none
+# 識別子のタイポのハイライトを無効にする
+csharp_identifier_typo_highlighting = none
+# 命名の不一致のハイライトを無効にする
+csharp_inconsistent_naming_highlighting = none
+# ブロック内のコンテンツをインデントする
+csharp_indent_block_contents = true
+# 文の条件式内の波括弧をインデントしない
+csharp_indent_braces_inside_statement_conditions = false
+# case内のコンテンツをインデントする
+csharp_indent_case_contents = true
+# case内のブロックはインデントしない
+csharp_indent_case_contents_when_block = false
+# ラベルをインデントする
+csharp_indent_labels = one_less_than_current
+# コード内の空行を1行に保つ
+csharp_keep_blank_lines_in_code = 1
+# 宣言内の空行を1行に保つ
+csharp_keep_blank_lines_in_declarations = 1
+# 既存の配置を保つ
+csharp_keep_existing_arrangement = true
+# 既存の属性の配置を保つ
+csharp_keep_existing_attribute_arrangement = true
+# 既存の宣言の括弧の配置を保つ
+csharp_keep_existing_declaration_parens_arrangement = true
+# 既存の埋め込みの配置を保つ
+csharp_keep_existing_embedded_arrangement = false
+# 既存の式メンバーの配置を保つ
+csharp_keep_existing_expr_member_arrangement = false
+# 既存の初期化子の配置を保つ
+csharp_keep_existing_initializer_arrangement = false
+# 既存の呼び出しの括弧の配置を保つ
+csharp_keep_existing_invocation_parens_arrangement = false
+# 既存の改行を保つ
+csharp_keep_existing_linebreaks = false
+# 既存のプロパティパターンの配置を保つ
+csharp_keep_existing_property_patterns_arrangement = false
+# 既存のswitch式の配置を保つ
+csharp_keep_existing_switch_expression_arrangement = false
+# C#の改行を保持する
+csharp_keep_user_linebreaks = true
+# マークアップ属性のタイポのハイライトを無効にする
+csharp_markup_attribute_typo_highlighting = none
+# マークアップテキストのタイポのハイライトを無効にする
+csharp_markup_text_typo_highlighting = none
+# 配列初期化子の要素数の最大値を1にする
+csharp_max_array_initializer_elements_on_line = 1
+# 列挙型のメンバー数の最大値を1にする
+csharp_max_enum_members_on_line = 1
+# 初期化子の要素数の最大値を1にする
+csharp_max_initializer_elements_on_line = 1
+# メソッド呼び出しの引数の最大数を6にする
+csharp_max_invocation_arguments_on_line = 6
+# 匿名型のメンバーの前に改行を挿入する
+csharp_new_line_before_members_in_anonymous_types = true
+# オブジェクト初期化子のメンバーの前に改行を挿入しない
+csharp_new_line_before_members_in_object_initializers = false
+# while文の前に改行を挿入する
+csharp_new_line_before_while = true
+# オブジェクトの作成時に型を明示的に指定する
+csharp_object_creation_when_type_evident = explicitly_typed
+# 単一部分の部分型のハイライトを無効にする
+csharp_partial_type_with_single_part_highlighting = none
+# 抽象アクセサホルダーを単一行に配置する
+csharp_place_abstract_accessorholder_on_single_line = true
+# アクセサ属性を同じ行に配置する
+csharp_place_accessor_attribute_on_same_line = true
+# アクセサホルダー属性を同じ行に配置しない
+csharp_place_accessorholder_attribute_on_same_line = false
+# 属性を同じ行に配置しない
+csharp_place_attribute_on_same_line = false
+# フィールド属性を同じ行に配置しない
+csharp_place_field_attribute_on_same_line = false
+# LINQのinto句を同じ行に配置しない
+csharp_place_linq_into_on_new_line = false
+# 単純なアクセサホルダーを単一行に配置する
+csharp_place_simple_accessorholder_on_single_line = true
+# 単純な匿名メソッドを単一行に配置しない
+csharp_place_simple_anonymousmethod_on_single_line = false
+# 単純なブロックを単一行に配置する
+csharp_place_simple_blocks_on_single_line = true
+# 単純なcase文を同じ行に配置しない
+csharp_place_simple_case_statement_on_same_line = false
+# 単純な宣言ブロックを単一行に配置する
+csharp_place_simple_declaration_blocks_on_single_line = true
+# 単純な埋め込みブロックを同じ行に配置しない
+csharp_place_simple_embedded_block_on_same_line = false
+# 単純な埋め込み文を同じ行に配置しない
+csharp_place_simple_embedded_statement_on_same_line = false
+# 単純な初期化子を単一行に配置しない
+csharp_place_simple_initializer_on_single_line = false
+# 単純なメソッドを単一行に配置しない
+csharp_place_simple_method_on_single_line = false
+# 単純なプロパティパターンを単一行に配置する
+csharp_place_simple_property_pattern_on_single_line = true
+# 複数行の時ブレース({})を使用する
+csharp_prefer_braces = when_multiline:warning
+# 単純なデフォルト式を使用する
+csharp_prefer_simple_default_expression = true:warning
+# 単純なusingステートメントを使用する
+csharp_prefer_simple_using_statement = true:warning
+# 静的なローカル関数を使用する
+csharp_prefer_static_local_function = true:warning
+# 修飾子の順序を指定する
+csharp_preferred_modifier_order = public, private, protected, internal, new, static, abstract, virtual, sealed, readonly, override, extern, unsafe, volatile, async:warning
+# 単一行の文を保持しない
+csharp_preserve_single_line_statements = false
+# 基底クラスの修飾子を削除する
+csharp_redundant_base_qualifier_highlighting = warning
+# メンバーの初期化子を削除する
+csharp_redundant_default_member_initializer_highlighting = none
+# コード内の括弧の近くの空白行を削除する
+csharp_remove_blank_lines_near_braces_in_code = true
+# 宣言内の括弧の近くの空白行を削除する
+csharp_remove_blank_lines_near_braces_in_declarations = true
+# 自動検出の設定を表示しない
+csharp_show_autodetect_configure_formatting_tip = false
+# 制御フロー文のキーワードの後に空白を挿入しない
+csharp_space_after_keywords_in_control_flow_statements = false
+# 単項演算子の後に空白を挿入する
+csharp_space_after_unary_operator = true
+# 宣言文の周りに空白を挿入しない
+csharp_space_around_declaration_statements = false
+# メンバーアクセス演算子の周りに空白を挿入しない
+csharp_space_around_member_access_operator = false
+# 三項演算子の周りに空白を挿入する
+csharp_space_around_ternary_operator = true
+# 制御フロー文の括弧の中の空白を挿入しない
+csharp_space_between_parentheses_of_control_flow_statements = false
+# 配列初期化子の括弧の中の空白を挿入しない
+csharp_space_within_single_line_array_initializer_braces = false
+# 特別なelse if文を使用する
+csharp_special_else_if_treatment = true
+# コメントを挿入しない
+csharp_stick_comment = false
+# コンストラクタの初期化子のコロンの後に空白行を挿入する
+csharp_style_allow_blank_line_after_colon_in_constructor_initializer_experimental = true:silent
+# 連続する括弧の間に空白行を挿入する
+csharp_style_allow_blank_lines_between_consecutive_braces_experimental = true:silent
+# 同じ行に埋め込み文を配置する
+csharp_style_allow_embedded_statements_on_same_line_experimental = true:silent
+# 条件付きデリゲート呼び出しを使用する
+csharp_style_conditional_delegate_call = true:warning
+# 条件付きデリゲート呼び出しを使用する
+csharp_style_conditional_delegate_call = true:warning
+# 分解変数宣言を使用する
+csharp_style_deconstructed_variable_declaration = true:warning
+# 式ボディのアクセサを使用する
+csharp_style_expression_bodied_accessors = true:warning
+# 式ボディのコンストラクタを使用しない
+csharp_style_expression_bodied_constructors = false:warning
+# 式ボディのインデクサを使用する
+csharp_style_expression_bodied_indexers = true:warning
+# 式ボディのラムダ式を使用する
+csharp_style_expression_bodied_lambdas = when_on_single_line:warning
+# 式ボディのローカル関数を使用する
+csharp_style_expression_bodied_local_functions = when_on_single_line:warning
+# 式ボディのメソッドを使用しない
+csharp_style_expression_bodied_methods = false:warning
+# 式ボディの演算子を使用する
+csharp_style_expression_bodied_operators = when_on_single_line:warning
+# 式ボディのプロパティを使用する
+csharp_style_expression_bodied_properties = when_on_single_line:warning
+# 明らかな型の場合に暗黙的なオブジェクト作成を使用しない
+csharp_style_implicit_object_creation_when_type_is_apparent = false
+# 変数宣言をインライン化する
+csharp_style_inlined_variable_declaration = true:warning
+# 名前空間宣言をブロックスコープにする
+csharp_style_namespace_declarations = block_scoped:silent
+# パターンローカル変数を使用する
+csharp_style_pattern_local_over_anonymous_function = true:warning
+# nullチェックを伴うas演算子よりもパターンマッチングを使用する
+csharp_style_pattern_matching_over_as_with_null_check = true:warning
+# キャストチェックを伴うis演算子よりもパターンマッチングを使用する
+csharp_style_pattern_matching_over_is_with_cast_check = true:warning
+# インデックス演算子を使用しない
+csharp_style_prefer_index_operator = false:warning
+# パターンマッチングを使用する
+csharp_style_prefer_pattern_matching = true:warning
+# 範囲演算子を使用しない
+csharp_style_prefer_range_operator = false:warning
+# switch式を使用する
+csharp_style_prefer_switch_expression = true:warning
+# throw式を使用する
+csharp_style_throw_expression = true:warning
+# 未使用の値の代入を使用しない
+csharp_style_unused_value_assignment_preference = false:silent
+# 未使用の値の式文を使用しない
+csharp_style_unused_value_expression_statement_preference = false:silent
+# varを使用する
+csharp_style_var_elsewhere = true:silent
+# 組み込み型に対してvarを使用する
+csharp_style_var_for_built_in_types = true:silent
+# 明らかな型の場合にvarを使用する
+csharp_style_var_when_type_is_apparent = true:silent
+# 組み込み型に対してvarを使用するか、型を指定するかをヒントとして表示する
+csharp_suggest_var_or_type_built_in_types_highlighting = hint
+# varを使用するか、型を指定するかをヒントとして表示する
+csharp_suggest_var_or_type_elsewhere_highlighting = hint
+# 単純な型に対してvarを使用するか、型を指定するかをヒントとして表示する
+csharp_suggest_var_or_type_simple_types_highlighting = hint
+# 複数行のリストの末尾にカンマを挿入する
+csharp_trailing_comma_in_multiline_lists = true
+# 1行のリストの末尾にカンマを挿入する
+csharp_trailing_comma_in_singleline_lists = true
+# 未使用のメンバーをハイライトしない
+csharp_unused_member_global_highlighting = none
+# 初期化子の括弧の中の空白を挿入しない
+csharp_use_continuous_indent_inside_initializer_braces = false
+# 名前空間宣言を名前空間の外に配置する
+csharp_using_directive_placement = outside_namespace:warning
+# メソッド呼び出しの左括弧の後に改行を挿入する
+csharp_wrap_after_invocation_lpar = true
+# 引数のラップスタイルを指定する
+csharp_wrap_arguments_style = chop_if_long
+# カンマの前に改行を挿入しない
+csharp_wrap_before_comma = false
+# 型パラメーター制約の前に改行を挿入する
+csharp_wrap_before_first_type_parameter_constraint = true
+# メソッド呼び出しの右括弧の前に改行を挿入する
+csharp_wrap_before_invocation_rpar = true
+# メソッド呼び出しのチェーンをラップする
+csharp_wrap_chained_method_calls = chop_if_long
+# ステートメントヘッダーのラップスタイルを指定する
+csharp_wrap_for_stmt_header_style = wrap_if_long
+# 行をラップしない
+csharp_wrap_lines = false
+# オブジェクト初期化子とコレクション初期化子のラップスタイルを指定する
+csharp_wrap_object_and_collection_initializer_style = wrap_if_long
+# プロパティパターンのラップスタイルを指定する
+csharp_wrap_property_pattern = chop_if_long
