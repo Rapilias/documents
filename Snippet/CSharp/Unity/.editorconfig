@@ -1,5 +1,6 @@
-root = false
-
+root = true
+# EditorConfig is awesome: https://EditorConfig.org
+# このファイルよりも上位のEditorConfigを見ない
 
 # special files
 [LICENSE.md]
@@ -52,8 +53,8 @@ charset = utf-8
 [dotnet-tools.json]
 charset = utf-8
 end_of_line = crlf
-trim_trailing_whitespace = unset
-insert_final_newline = unset
+trim_trailing_whitespace =
+insert_final_newline =
 
 # C#
 [*.cs]
@@ -74,106 +75,6 @@ trim_trailing_whitespace = true
 
 # dotnet format 専用のルール
 # https://learn.microsoft.com/ja-jp/dotnet/fundamentals/code-analysis/code-style-rule-options
-
-## 命名ルール
-dotnet_naming_rule.interfaceはIで始まるPascalCase.severity = warning
-dotnet_naming_rule.interfaceはIで始まるPascalCase.style = Iで始まるPascalCase
-dotnet_naming_rule.interfaceはIで始まるPascalCase.symbols = interface
-dotnet_naming_rule.private変数は_で始まるcamelCase.severity = warning
-dotnet_naming_rule.private変数は_で始まるcamelCase.style = _で始まるcamelCase
-dotnet_naming_rule.private変数は_で始まるcamelCase.symbols = 非公開変数
-dotnet_naming_rule.const_公開変数はPascalCase.severity = warning
-dotnet_naming_rule.const_公開変数はPascalCase.style = PascalCase
-dotnet_naming_rule.const_公開変数はPascalCase.symbols = const_公開変数
-dotnet_naming_rule.const_非公開変数はPascalCase.severity = warning
-dotnet_naming_rule.const_非公開変数はPascalCase.style = PascalCase
-dotnet_naming_rule.const_非公開変数はPascalCase.symbols = const_非公開変数
-dotnet_naming_rule.readonly_公開変数はPascalCase.severity = warning
-dotnet_naming_rule.readonly_公開変数はPascalCase.style = PascalCase
-dotnet_naming_rule.readonly_公開変数はPascalCase.symbols = readonly_公開変数
-dotnet_naming_rule.readonly_非公開変数はPascalCase.severity = warning
-dotnet_naming_rule.readonly_非公開変数はPascalCase.style = PascalCase
-dotnet_naming_rule.readonly_非公開変数はPascalCase.symbols = readonly_非公開変数
-dotnet_naming_rule.publicかつstaticプロパティはcamelCase.severity = warning
-dotnet_naming_rule.publicかつstaticプロパティはcamelCase.style = camelCase
-dotnet_naming_rule.publicかつstaticプロパティはcamelCase.symbols = public_static_プロパティ
-dotnet_naming_rule.publicプロパティはcamelCase.severity = warning
-dotnet_naming_rule.publicプロパティはcamelCase.style = camelCase
-dotnet_naming_rule.publicプロパティはcamelCase.symbols = public_プロパティ
-dotnet_naming_rule.型はPascalCase.severity = warning
-dotnet_naming_rule.型はPascalCase.style = PascalCase
-dotnet_naming_rule.型はPascalCase.symbols = 型
-dotnet_naming_rule.非同期関数はAsyncで終わるPascalCase.severity = warning
-dotnet_naming_rule.非同期関数はAsyncで終わるPascalCase.style = Asyncで終わるPascalCase
-dotnet_naming_rule.非同期関数はAsyncで終わるPascalCase.symbols = 非同期関数
-dotnet_naming_rule.abstractなclassはAで始まるPascalCase.severity = warning
-dotnet_naming_rule.abstractなclassはAで始まるPascalCase.style = Aで始まるPascalCase
-dotnet_naming_rule.abstractなclassはAで始まるPascalCase.symbols = class
-### 命名ルールに関連づくスタイル
-dotnet_naming_style._で始まるcamelCase.capitalization = camel_case
-dotnet_naming_style._で始まるcamelCase.required_prefix = _
-dotnet_naming_style._で始まるcamelCase.required_suffix =
-dotnet_naming_style._で始まるcamelCase.word_separator =
-dotnet_naming_style.Asyncで終わるPascalCase.capitalization = pascal_case
-dotnet_naming_style.Asyncで終わるPascalCase.required_prefix =
-dotnet_naming_style.Asyncで終わるPascalCase.required_suffix = Async
-dotnet_naming_style.Asyncで終わるPascalCase.word_separator =
-dotnet_naming_style.Iで始まるPascalCase.capitalization = pascal_case
-dotnet_naming_style.Iで始まるPascalCase.required_prefix = I
-dotnet_naming_style.Iで始まるPascalCase.required_suffix =
-dotnet_naming_style.Iで始まるPascalCase.word_separator =
-dotnet_naming_style.camelCase.capitalization = camel_case
-dotnet_naming_style.camelCase.required_prefix =
-dotnet_naming_style.camelCase.required_suffix =
-dotnet_naming_style.camelCase.word_separator =
-dotnet_naming_style.PascalCase.capitalization = pascal_case
-dotnet_naming_style.PascalCase.required_prefix =
-dotnet_naming_style.PascalCase.required_suffix =
-dotnet_naming_style.PascalCase.word_separator =
-dotnet_naming_style.Aで始まるPascalCase.capitalization = pascal_case
-dotnet_naming_style.Aで始まるPascalCase.required_prefix =A
-dotnet_naming_style.Aで始まるPascalCase.required_suffix =
-dotnet_naming_style.Aで始まるPascalCase.word_separator =
-### 命名ルールに関連づくシンボル
-dotnet_naming_symbols.const_or_readonly_公開変数.applicable_accessibilities = public
-dotnet_naming_symbols.const_or_readonly_公開変数.applicable_kinds = field
-dotnet_naming_symbols.const_or_readonly_公開変数.required_modifiers = const, readonly
-dotnet_naming_symbols.非公開変数.applicable_accessibilities = private, protected, private_protected, protected_internal
-dotnet_naming_symbols.非公開変数.applicable_kinds = field
-dotnet_naming_symbols.非公開変数.required_modifiers =
-dotnet_naming_symbols.非公開プロパティ.applicable_accessibilities = private, protected, private_protected, protected_internal
-dotnet_naming_symbols.非公開プロパティ.applicable_kinds = property
-dotnet_naming_symbols.非公開プロパティ.required_modifiers =
-dotnet_naming_symbols.const_非公開変数.applicable_accessibilities = private, protected, private_protected, protected_internal
-dotnet_naming_symbols.const_非公開変数.applicable_kinds = field
-dotnet_naming_symbols.const_非公開変数.required_modifiers = const
-dotnet_naming_symbols.const_公開変数.applicable_accessibilities = public, internal
-dotnet_naming_symbols.const_公開変数.applicable_kinds = field
-dotnet_naming_symbols.const_公開変数.required_modifiers = const
-dotnet_naming_symbols.readonly_非公開変数.applicable_accessibilities = private, protected, private_protected, protected_internal
-dotnet_naming_symbols.readonly_非公開変数.applicable_kinds = field
-dotnet_naming_symbols.readonly_非公開変数.required_modifiers = readonly
-dotnet_naming_symbols.readonly_公開変数.applicable_accessibilities = public, internal
-dotnet_naming_symbols.readonly_公開変数.applicable_kinds = field
-dotnet_naming_symbols.readonly_公開変数.required_modifiers = readonly
-dotnet_naming_symbols.public_static_プロパティ.applicable_accessibilities = public, internal
-dotnet_naming_symbols.public_static_プロパティ.applicable_kinds = property
-dotnet_naming_symbols.public_static_プロパティ.required_modifiers = static
-dotnet_naming_symbols.public_プロパティ.applicable_accessibilities = public, internal
-dotnet_naming_symbols.public_プロパティ.applicable_kinds = property
-dotnet_naming_symbols.public_プロパティ.required_modifiers =
-dotnet_naming_symbols.型.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
-dotnet_naming_symbols.型.applicable_kinds = class, struct, interface, enum
-dotnet_naming_symbols.型.required_modifiers =
-dotnet_naming_symbols.interface.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
-dotnet_naming_symbols.interface.applicable_kinds = interface
-dotnet_naming_symbols.interface.required_modifiers =
-dotnet_naming_symbols.非同期関数.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected, local
-dotnet_naming_symbols.非同期関数.applicable_kinds = method, local_function
-dotnet_naming_symbols.非同期関数.required_modifiers = async
-dotnet_naming_symbols.class.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected, local
-dotnet_naming_symbols.class.applicable_kinds = class
-dotnet_naming_symbols.class.required_modifiers =
 
 ## その他ルール
 [*.{cs,vb}]
@@ -488,7 +389,7 @@ csharp_style_expression_bodied_lambdas = when_on_single_line:warning
 # 式ボディのローカル関数を使用する
 csharp_style_expression_bodied_local_functions = when_on_single_line:warning
 # 式ボディのメソッドを使用しない
-csharp_style_expression_bodied_methods = false:warning
+csharp_style_expression_bodied_methods = true:warning
 # 式ボディの演算子を使用する
 csharp_style_expression_bodied_operators = when_on_single_line:warning
 # 式ボディのプロパティを使用する
@@ -498,7 +399,7 @@ csharp_style_implicit_object_creation_when_type_is_apparent = false
 # 変数宣言をインライン化する
 csharp_style_inlined_variable_declaration = true:warning
 # 名前空間宣言をブロックスコープにする
-csharp_style_namespace_declarations = block_scoped:silent
+csharp_style_namespace_declarations = block_scoped:warning
 # パターンローカル変数を使用する
 csharp_style_pattern_local_over_anonymous_function = true:warning
 # nullチェックを伴うas演算子よりもパターンマッチングを使用する
@@ -520,11 +421,11 @@ csharp_style_unused_value_assignment_preference = false:silent
 # 未使用の値の式文を使用しない
 csharp_style_unused_value_expression_statement_preference = false:silent
 # varを使用する
-csharp_style_var_elsewhere = true:silent
+csharp_style_var_elsewhere = true:suggestion
 # 組み込み型に対してvarを使用する
-csharp_style_var_for_built_in_types = true:silent
+csharp_style_var_for_built_in_types = true:suggestion
 # 明らかな型の場合にvarを使用する
-csharp_style_var_when_type_is_apparent = true:silent
+csharp_style_var_when_type_is_apparent = true:suggestion
 # 組み込み型に対してvarを使用するか、型を指定するかをヒントとして表示する
 csharp_suggest_var_or_type_built_in_types_highlighting = hint
 # varを使用するか、型を指定するかをヒントとして表示する
@@ -561,3 +462,57 @@ csharp_wrap_lines = false
 csharp_wrap_object_and_collection_initializer_style = wrap_if_long
 # プロパティパターンのラップスタイルを指定する
 csharp_wrap_property_pattern = chop_if_long
+
+# Microsoft .NET properties
+csharp_preserve_single_line_blocks = true
+dotnet_style_predefined_type_for_locals_parameters_members = true:warning
+dotnet_style_predefined_type_for_member_access = true:warning
+
+# ReSharper properties
+resharper_align_multiline_binary_expressions_chain = false
+resharper_align_multiline_statement_conditions = false
+resharper_align_multline_type_parameter_constrains = false
+resharper_align_multline_type_parameter_list = false
+resharper_align_tuple_components = false
+resharper_arguments_literal = named
+resharper_arguments_other = named
+resharper_arguments_skip_single = true
+resharper_blank_lines_after_start_comment = 1
+resharper_braces_for_dowhile = required
+resharper_braces_for_fixed = required
+resharper_braces_for_for = required_for_multiline
+resharper_braces_for_foreach = required_for_multiline
+resharper_braces_for_ifelse = required_for_multiline
+resharper_braces_for_lock = required
+resharper_braces_for_using = required
+resharper_braces_for_while = required_for_multiline
+resharper_csharp_align_multiline_argument = false
+resharper_csharp_align_multiline_parameter = false
+resharper_csharp_int_align_fix_in_adjacent = false
+resharper_csharp_wrap_before_declaration_rpar = true
+resharper_csharp_wrap_multiple_type_parameter_constraints_style = wrap_if_long
+resharper_indent_preprocessor_region = no_indent
+resharper_indent_raw_literal_string = do_not_change
+resharper_keep_existing_attribute_arrangement = false
+resharper_keep_existing_declaration_block_arrangement = false
+resharper_keep_existing_declaration_parens_arrangement = false
+resharper_keep_existing_embedded_block_arrangement = false
+resharper_keep_existing_enum_arrangement = false
+resharper_keep_existing_list_patterns_arrangement = false
+resharper_local_function_body = block_body
+resharper_place_simple_initializer_on_single_line = true
+resharper_place_simple_property_pattern_on_single_line = true
+resharper_place_type_attribute_on_same_line = false
+resharper_prefer_explicit_discard_declaration = true
+resharper_remove_blank_lines_near_braces_in_declarations = true
+resharper_special_else_if_treatment = true
+resharper_static_members_qualify_members = none, field, property, event, method
+resharper_wrap_arguments_style = wrap_if_long
+
+# ReSharper inspection severities
+resharper_arguments_style_literal_highlighting = suggestion
+resharper_arrange_attributes_highlighting = warning
+resharper_arrange_null_checking_pattern_highlighting = none
+resharper_arrange_object_creation_when_type_evident_highlighting = warning
+resharper_arrange_object_creation_when_type_not_evident_highlighting = warning
+resharper_arrange_static_member_qualifier_highlighting = warning
