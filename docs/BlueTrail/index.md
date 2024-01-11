@@ -1,10 +1,10 @@
 # BlueTrail
 ## これは何？
-https://misskey.io/@Rapilias によって開発されているブルーアーカイブの二次創作TPSゲームの公開ドキュメントです。  
+[@Rapilias(Misskey.io)](https://misskey.io/@Rapilias) によって開発されているブルーアーカイブの二次創作TPSゲームの公開ドキュメントです。  
   
 ## よくある質問
 ### いつ遊べるの？ / 開発の状況はどんな感じ？
-https://github.com/Rapilias/documents/milestones をご確認ください。  
+[マイルストーン](https://github.com/Rapilias/documents/milestones) や [Issue](https://github.com/Rapilias/documents/issues) をご確認ください。  
 **配布はv0.1.0完了後** を予定しています。
 
 https://rapilias.github.io/BlueTrailProjectMetrics/ にてプロジェクトの公開メトリクスを参照可能です。
@@ -20,7 +20,7 @@ Windows 10/11 のみで利用可能です。
 OS: Windows10  
 CPU: Core i9-9900K  
 Memory: 96GB  
-GPU: RTX2060  
+GPU: RTX4070  
 
 ### 有料？
 無料です。  
@@ -31,10 +31,10 @@ GPU: RTX2060
 
 ### 開発に参加出来る？
 多人数で開発する前提のプロジェクト/ライセンス形態ではないためご遠慮頂いております。  
-より詳細な内容は [Invite](https://github.com/Rapilias/documents/wiki/Invite) を確認してください。
+より詳細な内容は [Invite](./その他/Invite.md) を確認してください。
 
 ## ライセンス
-[License](https://github.com/Rapilias/documents/wiki/License) を参照して下さい。
+[License](./その他/License.md) を参照して下さい。
 
 ## 依存アセット
 TODO
