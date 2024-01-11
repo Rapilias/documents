@@ -1,0 +1,33 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/contents/*.{png,jpg,jpeg,webp,gif,ico,mp4,svg}"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern",
+      "EgoParadiseTemplate"
+    ],
+    "globalMetadata": {
+      "_appName": "EgoParadise.Docs",
+      "_appTitle": "EgoParadise.Docs",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}

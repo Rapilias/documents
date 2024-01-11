@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "docfx": {
+      "version": "2.74.1",
+      "commands": [
+        "docfx"
+      ]
+    },
+    "docfxtocgenerator": {
+      "version": "1.17.0",
+      "commands": [
+        "DocFxTocGenerator"
+      ]
+    }
+  }
+}

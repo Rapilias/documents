@@ -1,0 +1,155 @@
+name: null
+href: null
+items: 
+- name: ""
+  href: index.md
+  items: null
+  expanded: true
+  order: 0
+- name: BlueTrail
+  href: BlueTrail/index.md
+  items: 
+  - name: 開発
+    href: BlueTrail/開発/index.md
+    items: 
+    - name: 3dTools
+      href: BlueTrail/開発/3dTools.md
+      items: null
+      expanded: true
+      order: 0
+    - name: AssetNotes
+      href: BlueTrail/開発/AssetNotes.md
+      items: null
+      expanded: true
+      order: 0
+    - name: DevelopmentWords
+      href: BlueTrail/開発/DevelopmentWords.md
+      items: null
+      expanded: true
+      order: 0
+    - name: RoadMap
+      href: BlueTrail/開発/RoadMap.md
+      items: null
+      expanded: true
+      order: 0
+    - name: SpecialResource
+      href: BlueTrail/開発/SpecialResource.md
+      items: null
+      expanded: true
+      order: 0
+    - name: Unity
+      href: BlueTrail/開発/Unity.md
+      items: null
+      expanded: true
+      order: 0
+    expanded: true
+    order: 20
+  - name: 構造
+    href: BlueTrail/構造/index.md
+    items: 
+    - name: Addressing
+      href: BlueTrail/構造/Addressing.md
+      items: null
+      expanded: true
+      order: 0
+    - name: BuffDebuff_Passive_Modifier
+      href: BlueTrail/構造/BuffDebuff_Passive_Modifier.md
+      items: null
+      expanded: true
+      order: 0
+    - name: CharacterPrefab
+      href: BlueTrail/構造/CharacterPrefab.md
+      items: null
+      expanded: true
+      order: 0
+    - name: SaveData
+      href: BlueTrail/構造/SaveData.md
+      items: null
+      expanded: true
+      order: 0
+    - name: SceneSplitting
+      href: BlueTrail/構造/SceneSplitting.md
+      items: null
+      expanded: true
+      order: 0
+    - name: StaticLevel
+      href: BlueTrail/構造/StaticLevel.md
+      items: null
+      expanded: true
+      order: 0
+    - name: Ui
+      href: BlueTrail/構造/Ui.md
+      items: null
+      expanded: true
+      order: 0
+    expanded: true
+    order: 40
+  - name: 仕様
+    href: BlueTrail/仕様/index.md
+    items: 
+    - name: Modifier
+      href: BlueTrail/仕様/Modifier.md
+      items: null
+      expanded: true
+      order: 0
+    - name: Talk
+      href: BlueTrail/仕様/Talk.md
+      items: null
+      expanded: true
+      order: 0
+    expanded: true
+    order: 40
+  - name: その他
+    href: BlueTrail/その他/index.md
+    items: 
+    - name: Backgrounds
+      href: BlueTrail/その他/Backgrounds.md
+      items: null
+      expanded: true
+      order: 0
+    - name: Invite
+      href: BlueTrail/その他/Invite.md
+      items: null
+      expanded: true
+      order: 0
+    - name: License
+      href: BlueTrail/その他/License.md
+      items: null
+      expanded: true
+      order: 0
+    - name: バグバグ遊園地
+      href: BlueTrail/その他/バグバグ遊園地.md
+      items: null
+      expanded: true
+      order: 0
+    expanded: true
+    order: 100
+  expanded: true
+  order: 0
+- name: Rapilias
+  href: Rapilias/index.md
+  items: 
+  - name: Service
+    href: Rapilias/Service/index.md
+    items: 
+    - name: BlueArchiveBirthday
+      href: Rapilias/Service/BlueArchiveBirthday/index.md
+      items: 
+      - name: ReleaseNote
+        href: Rapilias/Service/BlueArchiveBirthday/ReleaseNote.md
+        items: null
+        expanded: true
+        order: 0
+      expanded: true
+      order: 0
+    - name: misskey
+      href: Rapilias/Service/misskey/index.md
+      items: []
+      expanded: true
+      order: 0
+    expanded: true
+    order: 0
+  expanded: true
+  order: 0
+expanded: true
+order: 0

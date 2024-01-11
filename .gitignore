@@ -348,3 +348,11 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+docs/_site
+.idea/
+
+[*.yml]
+charset = utf-8
+indent_style = space
+indent_size = 2
