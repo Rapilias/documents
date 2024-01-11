@@ -20,7 +20,7 @@ Windows 10/11 のみで利用可能です。
 OS: Windows10  
 CPU: Core i9-9900K  
 Memory: 96GB  
-GPU: RTX4070 Ti 
+GPU: RTX4070  
 
 ### 有料？
 無料です。  
