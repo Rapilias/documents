@@ -186,18 +186,14 @@ http://www.styleseven.com
   + MessagePack-CSharp: https://github.com/MessagePack-CSharp/MessagePack-CSharp/blob/master/LICENSE / MIT + BSD 2-Clause(lz4net)
 + hadashiA
   + VContainer: https://github.com/hadashiA/VContainer/blob/master/LICENSE / MIT
-+ AnnulusGames
-  + MagicTween: https://github.com/AnnulusGames/MagicTween/blob/main/LICENSE / MIT
+  + VitalRouter: https://github.com/hadashiA/VitalRouter/blob/main/LICENSE / MIT
 + Tayx94
   + graphy: https://github.com/Tayx94/graphy/blob/master/LICENSE / MIT
 + ruccho
   + UniTyped: https://github.com/ruccho/UniTyped/blob/master/LICENSE / MIT
 + brunomikoski
   + Animation-Sequencer: https://github.com/brunomikoski/Animation-Sequencer/blob/develop/LICENSE / MIT
-+ codewriter-packages
-  + UniMob: https://github.com/codewriter-packages/UniMob/blob/master/LICENSE.md / MIT
 + Haruma-K
-  + uPalette: https://github.com/Haruma-K/uPalette/blob/master/LICENSE.md / MIT
   + UnityScreenNavigator: https://github.com/Haruma-K/UnityScreenNavigator/blob/master/LICENSE.md / MIT
 + EgoParadise.Rapilias
   + UnityTypedAnimator: https://github.com/Rapilias/UnityTypedAnimator/blob/main/LICENSE / MIT

@@ -60,4 +60,4 @@ Variant:
 ◇その他◇
 
 配布元URL: https://rapilias.booth.pm/items/3464346
-連絡用Twitter: https://twitter.com/Rapilias1
+連絡用: https://misskey.io/@Rapilias
