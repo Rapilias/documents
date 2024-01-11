@@ -1,0 +1,4 @@
+/* disable left side gray outed tree element. */
+.text-body-tertiary.name-only {
+  display: none !important;
+}
