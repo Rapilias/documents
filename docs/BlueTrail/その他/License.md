@@ -1,10 +1,17 @@
 ## ライセンス
-原則[「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドライン](https://bluearchive.jp/news/newsJump/116) を遵守します。  
-その上で各制作物固有のライセンスが適応されます。  
-個別に提供された作品には **[個別提供]** と記載しています。  
+> [!NOTE]
+> 原則[「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドライン](https://bluearchive.jp/news/newsJump/116) を遵守します。  
+> その上で各制作物固有のライセンスが適応されます。  
+> 個別に提供された作品には **[個別提供]** と記載しています。  
 
+以下一覧 敬称略
 ### モデルデータ
+#### せとくま みりん (@mirin_setokuma)
+<details>
+<summary>
 【VRC】シロコ  
+</summary>
+
 Link: https://booth.pm/ja/items/2840468  
 Author: [せとくま みりん (@mirin_setokuma)](https://twitter.com/mirin_setokuma)  
 Version: v01  
@@ -17,10 +24,15 @@ Version: v01
 >  ■改変  
 >  本モデルの改変（モデル・テクスチャ等）利用は許可されています。  
 >  ただし、その場合においても再配布は禁止となりますのでご注意ください。  
+</details>
 
 ---
-
+#### あんじっぷ (@fs495)
+<details>
+<summary>
 鷲見セリナ(ブルーアーカイブ)  
+</summary>
+
 Link: https://3d.nicovideo.jp/works/td78229  
 Author:  [あんじっぷ (@fs495)](https://twitter.com/fs495)  
 Version: 027 (2?)  
@@ -33,10 +45,14 @@ https://bluearchive.jp/news/newsJump/116
 >  
 > Original copyright (c) NAT GAMES Co., Ltd.  
 > Original copyright (c) Yostar, Inc.  
+</details>
 
 ---
-
+<details>
+<summary>
 白洲アズサ(ブルーアーカイブ)  
+</summary>
+
 Link: https://3d.nicovideo.jp/works/td79881  
 Author:  [あんじっぷ (@fs495)](https://twitter.com/fs495)  
 Version: 018 (4?)  
@@ -48,10 +64,14 @@ Version: 018 (4?)
 > https://bluearchive.jp/news/newsJump/116
 > Original copyright (c) NAT GAMES Co., Ltd.  
 > Original copyright (c) Yostar, Inc.  
+</details>
 
 ---
-
+<details>
+<summary>
 栗村アイリ(ブルーアーカイブ)  
+</summary>
+
 Link: https://3d.nicovideo.jp/works/td80196  
 Author:  [あんじっぷ (@fs495)](https://twitter.com/fs495)  
 Version: 008 (1?)  
@@ -65,12 +85,19 @@ Version: 008 (1?)
 >   
 > Original copyright (c) NAT GAMES Co., Ltd.  
 > Original copyright (c) Yostar, Inc.  
+</details>
 
 ---
 
+#### ゼーロ(@zero_typeT)
+
+<details>
+<summary>
 才羽モモイ  
+</summary>
+
 Link: https://3d.nicovideo.jp/works/td78784  
-Author: https://3d.nicovideo.jp/users/75885307  
+Author: [ゼーロ(@zero_typeT)](https://twitter.com/zero_typeT)  
 Version: ver0.9b  
 
 > ・本モデルは上記「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドラインの内容の範囲内での活動に限り、自由に使用することが可能です。  
@@ -84,12 +111,17 @@ Version: ver0.9b
 > ・商用利用は禁止です。  
 > ・当利用規約は予告なく改定させていただく場合があります。利用規約は最新のものが適用されます。  
 > ・本モデルの使用により発生した損害、損失、不利益に対して当方は一切責任を負いません。全て自己責任の上での使用をお願いします。  
+</details>
 
 ---
 
+<details>
+<summary>
 才羽ミドリ  
+</summary>
+
 Link: https://3d.nicovideo.jp/works/td79011  
-Author: https://3d.nicovideo.jp/users/75885307  
+Author: [ゼーロ(@zero_typeT)](https://twitter.com/zero_typeT)  
 Version: ver0.9  
 
 > ・本モデルは上記「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドラインの内容の範囲内での活動に限り、自由に使用することが可能です。  
@@ -103,12 +135,16 @@ Version: ver0.9
 > ・商用利用は禁止です。  
 > ・当利用規約は予告なく改定させていただく場合があります。利用規約は最新のものが適用されます。  
 > ・本モデルの使用により発生した損害、損失、不利益に対して当方は一切責任を負いません。全て自己責任の上での使用をお願いします。  
+</details>
 
 ---
-
+<details>
+<summary>
 小鳥遊ホシノ  
+</summary>
+
 Link: https://3d.nicovideo.jp/works/td79548  
-Author: https://3d.nicovideo.jp/users/75885307   
+Author: [ゼーロ(@zero_typeT)](https://twitter.com/zero_typeT)  
 Version: ver1.0t  
 
 > ・本モデルは上記「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドラインの内容の範囲内での活動に限り、自由に使用することが可能です。  
@@ -122,12 +158,19 @@ Version: ver1.0t
 > ・商用利用は禁止です。  
 > ・当利用規約は予告なく改定させていただく場合があります。利用規約は最新のものが適用されます。  
 > ・本モデルの使用により発生した損害、損失、不利益に対して当方は一切責任を負いません。全て自己責任の上での使用をお願いします。  
+せん。全て自己責任の上での使用をお願いします。  
+</details>
 
 ---
 
+#### lovecelebi(@lovecelebi)
+<details>
+<summary>
 アロナ  
+</summary>
+
 Link: https://booth.pm/ja/items/4982022  
-Author: [lovecelebi](https://lovecelebi.booth.pm)  
+Author: [lovecelebi(@lovecelebi)](https://twitter.com/lovecelebi)  
 Version: 1.01  
   
 > ---利用規約---  
@@ -138,12 +181,19 @@ Version: 1.01
 > ╳「ブルーアーカイブ」二次創作ガイドラインに違反すること(https://bluearchive.jp/fankit/guidelines)  
 > ・本モデルに関して利用者に発生したいかなる損害についても（炎上とか）、lovecelebiは一切の責任を負いません。  
 > ・ほかのソフトの変換(MOD、VRCHAT等)はご自由に、ただし個人使用に限ります。  
+</details>
 
 ---
 
+#### Rapilias(@Rapilias)
+
+<details>
+<summary>
 スイーパー(白/黄/赤/水/紫)  
+</summary>
+
 Link: https://rapilias.booth.pm/items/3464346  
-Author:  [Rapilias(@Rapilias1)](https://twitter.com/Rapilias1)  
+Author:  [Rapilias(@Rapilias)](https://misskey.io/@Rapilias)  
 Version: Internal  
 > 「ブルーアーカイブ」二次創作・ゲーム実況配信及び動画投稿に関するガイドライン( https://bluearchive.jp/news/newsJump/116 ) に加え、以下の条文が適応されます。  
 > ・本モデルの商用利用は禁止します。  
@@ -151,6 +201,8 @@ Version: Internal
 > ・当利用規約は予告なく改定する場合があります。利用規約は最新のものが適用されます。  
 > ・本モデルの使用により発生した損害、損失、不利益に対して当方は一切責任を負いません。全て自己責任の上で使用をお願いします。  
 > ・本モデルの利用者はモデルデータの利用をもって本利用規約に同意したものとみなします。  
+
+</details>
 
 ## BGM
 [Αναζήτηση για την Κιβωτός στο Ντεβαλόκα (Fan-made Battle Music) o29_831](https://www.youtube.com/watch?v=Vya07EtRiRQ)  
@@ -172,6 +224,7 @@ http://www.styleseven.com
 ## ライブラリライセンス
 数が多いためGithub上ではリンクのみ記載し、本体で全文を載せる。
 
++  NuGetForUnity: https://github.com/GlitchEnzo/NuGetForUnity?tab=MIT-1-ov-file#readme / MIT
 + Cysharp
   + CsProjectModifier: https://github.com/Cysharp/CsprojModifier/blob/master/LICENSE / MIT
   + MasterMemory: https://github.com/Cysharp/MasterMemory/blob/master/LICENSE / MIT
