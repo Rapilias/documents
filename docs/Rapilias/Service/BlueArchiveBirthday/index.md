@@ -5,4 +5,4 @@ Googleカレンダー
 https://calendar.google.com/calendar/u/2?cid=M2lwcmVmcGgyczNvaGV2NGNtdTVxOWprNmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
 
 リリースノート
-[ReleaseNotes](./ReleaseNotes.md)
+[ReleaseNotes](./ReleaseNote.md)
