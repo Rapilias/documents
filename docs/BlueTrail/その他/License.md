@@ -5,8 +5,8 @@
 > 個別に提供された作品には **[個別提供]** と記載しています。  
 
 以下一覧 敬称略
-### モデルデータ
-#### せとくま みりん (@mirin_setokuma)
+## モデルデータ
+### せとくま みりん (@mirin_setokuma)
 <details>
 <summary>
 【VRC】シロコ  
@@ -27,7 +27,7 @@ Version: v01
 </details>
 
 ---
-#### あんじっぷ (@fs495)
+### あんじっぷ (@fs495)
 <details>
 <summary>
 鷲見セリナ(ブルーアーカイブ)  
@@ -89,7 +89,7 @@ Version: 008 (1?)
 
 ---
 
-#### ゼーロ(@zero_typeT)
+### ゼーロ(@zero_typeT)
 
 <details>
 <summary>
@@ -163,7 +163,7 @@ Version: ver1.0t
 
 ---
 
-#### lovecelebi(@lovecelebi)
+### lovecelebi(@lovecelebi)
 <details>
 <summary>
 アロナ  
@@ -185,7 +185,7 @@ Version: 1.01
 
 ---
 
-#### Rapilias(@Rapilias)
+### Rapilias(@Rapilias)
 
 <details>
 <summary>
