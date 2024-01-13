@@ -18,5 +18,5 @@ Addressableの管理は [SmartAddresser](https://github.com/CyberAgentGameEntert
 |サブシーン遅延リソース|Addressable|SubScene|AddressableかつSubScene内で生存し、遅延して読み込める必要があるリソース|
 |その他区分のあるリソース|Addressable|*|Addressableかつベース/サブシーン内で生存し、シーン管理外で読み込む必要のあるリソース|
 
-シーン種別は https://github.com/Rapilias/documents/wiki/SceneSplitting を参照
+シーン種別は [SceneSplitting](./SceneSplitting.md) を参照
 その他リソースではモデル + テクスチャ + 関連プレハブ 等のグループをラベル化する等が考えられる SmartAddresserと連携したいので、これも戦略を考えておきたい
