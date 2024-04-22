@@ -1,4 +1,6 @@
-# BlueTrail
+## BlueTrail
 
-> [!WARNING]  
-> 良い感じのドキュメントは[Github Pages](https://rapilias.github.io/documents/BlueTrail/index.html)にて閲覧する事ができます。  
+> [!CAUTION]
+> ブルーアーカイブTPSゲームプロジェクト BlueTrail は、諸般の事情により現在開発停止状態です。
+
+## Aqualit
