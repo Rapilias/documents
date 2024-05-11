@@ -4,7 +4,7 @@ about: 汎用的なバグ報告用issue
 title: ''
 labels: バグ
 assignees: Rapilias
-projects: Rapilias/2
+projects: ["Rapilias/2"]
 ---
 
 ## 概要
