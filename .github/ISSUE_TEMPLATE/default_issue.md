@@ -1,5 +1,5 @@
 ---
-name: developer tasks
+name: Developer Tasks
 about: 開発者向け issue template
 title: ""
 labels: ""

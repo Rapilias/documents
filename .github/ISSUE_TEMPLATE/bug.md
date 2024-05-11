@@ -1,5 +1,5 @@
 ---
-name: バグ
+name: Bug Report
 about: 汎用的なバグ報告用issue
 title: ""
 labels: バグ

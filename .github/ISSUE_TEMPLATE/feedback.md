@@ -1,5 +1,5 @@
 ---
-name: フィードバック
+name: Feedback
 about: 非開発者から寄せられたフィードバック
 title: "[FB]"
 labels: フィードバック
