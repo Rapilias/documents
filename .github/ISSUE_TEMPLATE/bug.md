@@ -1,10 +1,10 @@
 ---
-name: Bug Report
-about: 汎用的なバグ報告用issue
+name: "Bug Report"
+about: "汎用的なバグ報告用issue"
 title: ""
 labels: バグ
-assignees: Rapilias
-projects: "Aqualit"
+assignees: "Rapilias"
+projects: ["Aqualit"]
 ---
 
 ## 概要
