@@ -1,10 +1,10 @@
 ---
 name: フィードバック
 about: 非開発者から寄せられたフィードバック
-title: '[FB]'
+title: "[FB]"
 labels: フィードバック
 assignees: Rapilias
-projects: ["Rapilias/2"]
+projects: "Aqualit"
 ---
 
 ## 概要

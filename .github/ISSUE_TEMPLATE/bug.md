@@ -1,10 +1,10 @@
 ---
 name: バグ
 about: 汎用的なバグ報告用issue
-title: ''
+title: ""
 labels: バグ
 assignees: Rapilias
-projects: ["Rapilias/2"]
+projects: "Aqualit"
 ---
 
 ## 概要
